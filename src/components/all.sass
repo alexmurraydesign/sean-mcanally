@@ -1,4 +1,5 @@
 @import "~bulma/sass/utilities/initial-variables"
+@import "//fonts.googleapis.com/css2?family=Zen+Antique&display=swap"
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -7,8 +8,11 @@ $kaldi-red-invert: #fff
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
-$body-color: #333
+$body-color: #000
 $black: #2b2523
+
+body
+  font-family: 'Zen Antique', serif
 
 .navbar .navbar-menu
   box-shadow: none !important
@@ -138,3 +142,26 @@ $menu-label-color: $white-ter
     text-align: center
     max-width: 70%
     margin: 0 0 1em
+
+// custom
+.navbar
+  position: absolute
+  width: 100%
+  background-color: transparent
+  .navbar-item
+    color: #fff
+    font-family: 'Zen Antique', serif
+    font-size: 1.1rem
+    img
+      max-height: 100%
+  .navbar-burger
+    color: #fff
+    span 
+      height: 2px
+      width: 18px
+      &:nth-child(1)
+        top: calc(50% - 7px)
+      &:nth-child(3)
+        top: calc(50% + 5px)
+    &.is-active span:nth-child(3)
+      transform: translateY(-7px) rotate(-45deg)

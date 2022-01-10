@@ -14,7 +14,6 @@ export const IndexPageTemplate = ({
   title,
   heading,
   subheading,
-  testt,
   mainpitch,
   description,
   intro,
@@ -33,7 +32,6 @@ export const IndexPageTemplate = ({
                   <div className="content">
                     <div className="tile">
                       <h1 className="title">{mainpitch.title}</h1>
-                      <h1 className="title">{testt}</h1>
                     </div>
                     <div className="tile">
                       <h3 className="subtitle">{mainpitch.description}</h3>
@@ -130,7 +128,6 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        testt
         mainpitch {
           title
           description

@@ -4,7 +4,6 @@ title: Great coffee with a consciencee
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscienceee
 subheading: Support sustainable farming while enjoying a cupoo
-testt: get innnn
 mainpitch:
   title: Why Kaldi
   description: >
