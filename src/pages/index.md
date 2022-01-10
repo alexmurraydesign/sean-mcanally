@@ -4,7 +4,7 @@ title: Great coffee with a consciencee
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
-testt: hi thereeekkkk
+testt: get in
 mainpitch:
   title: Why Kaldi
   description: >
@@ -28,9 +28,9 @@ intro:
     - image: /img/coffee-gear.png
       text: >
         We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your 
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+        tools for every taste and experience level. No matter if you roast
+        your  own beans or just bought your first french press, you’ll find a
+        gadget to fall in love with in our shop.
     - image: /img/tutorials.png
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
