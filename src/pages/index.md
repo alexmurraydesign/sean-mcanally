@@ -6,10 +6,10 @@ title: Civil and Criminal Law
 subheading: Barrister
 image: /img/example.jpg
 mainpitch:
-  title: I am a barrister with over 20 years’ experience in courts at all levels
-    in both **civil** and **criminal** cases.  I am proud of my reputation for
-    careful advice, thorough preparation, pragmatism and determined
-    representation.
+  title: "## I am a barrister with over 20 years’ experience in courts at all
+    levels in both **civil** and **criminal** cases.  I am proud of my
+    reputation for careful advice, thorough preparation, pragmatism and
+    determined representation."
   body: >-
     My success comes from my ability to break down complex facts and law to
     fully understand each case.  I give frank, reliable, advice.  My clients
