@@ -16,6 +16,13 @@ mainpitch:
 
 
     My experience is broad – I shy away from few areas of civil litigation and, by applying the basics – well – to each case, have built up a skill set and range of experience not easily found.
+  body: >-
+    My success comes from my ability to break down complex facts and law to
+    fully understand each case.  I give frank, reliable, advice.  My clients
+    understand their legal position and I help them work to best advantage. 
+
+
+    My experience is broad – I shy away from few areas of civil litigation and, by applying the basics – well – to each case, have built up a skill set and range of experience not easily found.
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
