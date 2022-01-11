@@ -32,7 +32,7 @@ export const IndexPageTemplate = ({
                       <h1 className="title">{mainpitch.title}</h1>
                     </div>
                     <div className="tile">
-                      <h3 className="subtitle">{mainpitch.description}</h3>
+                      <h3 className="subtitle">{mainpitch.body}</h3>
                     </div>
                   </div>
                   <Features gridItems={intro.blurbs} />
@@ -113,7 +113,7 @@ export const pageQuery = graphql`
         subheading
         mainpitch {
           title
-          description
+          body
         }
         intro {
           blurbs {
