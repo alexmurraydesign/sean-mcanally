@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Sean McAnally
+title: Civil and Criminal Law
 image: /img/example.jpg
 heading: Weird Heading
 subheading: Barrister
