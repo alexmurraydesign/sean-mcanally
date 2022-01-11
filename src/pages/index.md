@@ -1,17 +1,21 @@
 ---
+heading: Weird Heading
+testt: get innnn
 templateKey: index-page
 title: Civil and Criminal Law
 image: /img/example.jpg
-heading: Weird Heading
 subheading: Barrister
-testt: get innnn
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: I am a barrister with over 20 years’ experience in courts at all levels
+    in both civil and criminal cases.  I am proud of my reputation for careful
+    advice, thorough preparation, pragmatism and determined representation.
+  description: >-
+    My success comes from my ability to break down complex facts and law to
+    fully understand each case.  I give frank, reliable, advice.  My clients
+    understand their legal position and I help them work to best advantage. 
+
+
+    My experience is broad – I shy away from few areas of civil litigation and, by applying the basics – well – to each case, have built up a skill set and range of experience not easily found.
 description: Kaldi is the ultimate spot for coffee lovers who want to learn
   about their java’s origin and support the farmers that grew it. We take coffee
   production, roasting and brewing seriously and we’re glad to pass that
