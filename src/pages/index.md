@@ -6,11 +6,17 @@ title: Civil and Criminal Law
 image: /img/example.jpg
 subheading: Barrister
 mainpitch:
-  title: Why Kaldi
-  body: Kaldi is the ultimate spot for coffee lovers who want to learn
-    about their java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone.
+  title: I am a barrister with over 20 years’ experience in courts at all levels
+    in both civil and criminal cases.  I am proud of my reputation for careful
+    advice, thorough preparation, pragmatism and determined representation.
+  body: >-
+    My **success** comes from my ability to break down complex facts and law to
+    fully understand each case.  I give frank, reliable, advice.  My clients
+    understand their legal **position** and I help them work to best advantage.
+     
+
+
+    My experience is broad – I shy away from few areas of civil litigation and, by applying the basics – well – to each case, have built up a skill set and range of experience not easily found.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -62,4 +68,5 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+description: sad
 ---
