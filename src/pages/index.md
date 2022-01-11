@@ -1,6 +1,8 @@
 ---
+heading: Weird Heading
+testt: get innnn
 templateKey: index-page
-title: Sean McAnally
+title: Civil and Criminal Law
 image: /img/example.jpg
 subheading: Barrister
 mainpitch:
