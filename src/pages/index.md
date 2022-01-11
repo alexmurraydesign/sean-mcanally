@@ -10,13 +10,12 @@ mainpitch:
     in both civil and criminal cases.  I am proud of my reputation for careful
     advice, thorough preparation, pragmatism and determined representation.
   body: >-
-    *My success comes from my ability to break down complex facts and law to
+    My success comes from my ability to break down complex facts and law to
     fully understand each case.  I give frank, reliable, advice.  My clients
-    understand their legal position and I help them work to best advantage.*  
+    understand their legal position and I help them work to best advantage.  
 
 
-    *My experience is broad – I shy away from few areas of civil litigation and, by applying the basics – well – to each case, have built up a skill set and range of experience not easily found.*
-description: sad
+    My experience is broad – I shy away from few areas of civil litigation and, by applying the basics – well – to each case, have built up a skill set and range of experience not easily found.
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -68,4 +67,5 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+description: sad
 ---
