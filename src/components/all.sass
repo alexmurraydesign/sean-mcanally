@@ -1,5 +1,6 @@
 @import "~bulma/sass/utilities/initial-variables"
 @import "//fonts.googleapis.com/css2?family=Zen+Antique&display=swap"
+@import "//fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -148,6 +149,8 @@ $menu-label-color: $white-ter
   position: absolute
   width: 100%
   background-color: transparent
+  .navbar-brand
+    padding: 1rem
   .navbar-item
     color: #fff
     font-family: 'Zen Antique', serif
@@ -165,3 +168,15 @@ $menu-label-color: $white-ter
         top: calc(50% + 5px)
     &.is-active span:nth-child(3)
       transform: translateY(-7px) rotate(-45deg)
+
+.header-text
+  &.container
+    align-items: stretch
+    display: flex
+    width: 100%
+    h1
+      font-family: 'Montserrat', sans-serif
+      font-weight: 300
+    h3
+      font-family: 'Montserrat', sans-serif
+      font-weight: 400

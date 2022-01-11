@@ -28,7 +28,7 @@ export default function FullWidthImage(props) {
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
-              height: height,
+              height: "100%",
               width: "100%",
             }}
             // You can optionally force an aspect ratio for the generated image
@@ -45,7 +45,7 @@ export default function FullWidthImage(props) {
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
-              maxHeight: height,
+              maxHeight: "100%",
             }}
             layout="fullWidth"
             // You can optionally force an aspect ratio for the generated image
@@ -56,27 +56,25 @@ export default function FullWidthImage(props) {
           />
         )}
         {(title || subheading) && (
-          <div
+          <div className="header-text container"
             style={{
               // By using the same grid area for both, they are stacked on top of each other
               gridArea: "1/1",
               position: "relative",
               // This centers the other elements inside the hero component
-              placeItems: "center",
+              placeItems: "left",
               display: "grid",
             }}
           >
             {/* Any content here will be centered in the component */}
             {title && (
               <h1
-                className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+                className="is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
                 style={{
-                  boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
                   color: "white",
                   lineHeight: "1",
-                  padding: "0.25em",
+                  padding: "0.25rem 1.75rem",
+                  fontWeight: "300"
                 }}
               >
                 {title}
@@ -84,14 +82,11 @@ export default function FullWidthImage(props) {
             )}
             {subheading && (
               <h3
-                className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+                className="is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
                 style={{
-                  boxShadow:
-                    "rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px",
-                  backgroundColor: "rgb(255, 68, 0)",
                   color: "white",
                   lineHeight: "1",
-                  padding: "0.25rem",
+                  padding: "0.25rem 1.75rem",
                   marginTop: "0.5rem",
                 }}
               >
