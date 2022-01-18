@@ -11,4 +11,4 @@ I returned to New Zealand in 2001 and joined Keegan Alexander, becoming a partne
 
 My clients include body corporates, companies, professional firms, individuals, trustees and insolvency practitioners.
 
-I have presented seminars for the New Zealand Law Society on costs in civil proceedings and have written for the New Zealand Law Journal, Law News and Property Lawyer. I am a contributing author of *Civil Procedure: District Court and Tribunals* (LexisNexis, NZ).
+I have presented seminars for the New Zealand Law Society on costs in civil proceedings and have written for the *New Zealand Law Journal*, *Law News* and *Property Lawyer*. I am a contributing author of *Civil Procedure: District Court and Tribunals* (LexisNexis, NZ).
