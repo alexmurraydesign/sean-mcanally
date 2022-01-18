@@ -7,7 +7,7 @@ import { getImage } from "gatsby-plugin-image";
 import HeaderImage from "../components/HeaderImage";
 
 // eslint-disable-next-line
-export const AboutPageTemplate = ({ 
+export const ExperiencePageTemplate = ({ 
   title,
   image,
   content,
@@ -32,19 +32,19 @@ export const AboutPageTemplate = ({
   );
 };
 
-AboutPageTemplate.propTypes = {
+ExperiencePageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 };
 
-const AboutPage = ({ data }) => {
+const ExperiencePage = ({ data }) => {
   const { markdownRemark: post } = data;
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <ExperiencePageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         image={post.frontmatter.image}
@@ -54,14 +54,14 @@ const AboutPage = ({ data }) => {
   );
 };
 
-AboutPage.propTypes = {
+ExperiencePage.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default AboutPage;
+export default ExperiencePage;
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const experiencePageQuery = graphql`
+  query ExperiencePage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
