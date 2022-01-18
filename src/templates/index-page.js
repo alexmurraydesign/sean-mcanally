@@ -16,8 +16,10 @@ export const IndexPageTemplate = ({
   subheading,
   mainpitch,
   intro,
+  contentComponent,
 }) => {
   const heroImage = getImage(image) || image;
+  const PageContent = contentComponent || Content;
 
   return (
     <div>
@@ -30,7 +32,7 @@ export const IndexPageTemplate = ({
                 <div className="content">
                   <div className="content">
                     <div className="tile">
-                      <HTMLContent className="content intro-content" content={mainpitch.title} />
+                      <PageContent className="content intro-content" content={mainpitch.title} />
                     </div>
                     <div className="tile">
                       <HTMLContent className="content" content={mainpitch.body} />
@@ -44,7 +46,7 @@ export const IndexPageTemplate = ({
                       </Link>
                     </div>
                   </div>
-                  <div className="column is-12">
+                  {/* <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       Latest stories
                     </h3>
@@ -54,7 +56,7 @@ export const IndexPageTemplate = ({
                         Read more
                       </Link>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
