@@ -1,6 +1,7 @@
 ---
 templateKey: about-page
 path: /about
+image: /img/about.jpg
 title: About
 ---
 My first exposure to litigation was from the other side of the bench. I spent two years as a Judges’ clerk in the High Court before cutting my teeth, as an advocate, in the Cook Islands where I appeared in both the High Court and the Court of Appeal on criminal matters, ranging from minor offending to cases alleging rape and indecent assault, and a variety of civil matters including personal injury, judicial review and employment disputes. I made up for a lack of experience with confidence, tenacity – and hard work.
